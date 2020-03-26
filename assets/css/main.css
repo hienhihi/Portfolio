@@ -28,8 +28,10 @@ footer, header, hgroup, menu, nav, section {
   display: block; }
 
 #mypic {
-  width: 300px;
-  max-height: 380px
+  width: 502px;
+  max-height: 349px;
+  object-position: top;
+  margin: 0 auto;
 }
 
 body {
@@ -2152,8 +2154,9 @@ button,
       -moz-object-position: center;
       -webkit-object-position: center;
       -ms-object-position: center;
-      object-position: center;
-      width: 100%; }
+      /* object-position: center; */
+      /* width: 100%; */
+      }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
